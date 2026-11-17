@@ -110,3 +110,33 @@ Demonstrates successful download of `company-report.txt` from `Public-Reports/` 
 
 ### 5. Access Control Validation
 Demonstrates how IAM policies enforce role-based access and the principle of least privilege.
+
+## Project Screenshots
+
+This section contains screenshots demonstrating the implementation, security configuration, IAM access management, and permission testing of the AWS S3 Secure Cloud Storage project.
+
+### S3 Bucket Configuration
+- S3 bucket and folder structure
+- Bucket versioning
+- Default encryption using SSE-S3
+- Block Public Access configuration
+
+### IAM Access Management
+- IAM user groups
+- Employee custom IAM policy
+- Viewer read-only IAM policy
+- User and group assignments
+
+### Employee Access Testing
+- Employee folder access
+- Successful file upload
+- Successful file download
+- Unauthorized delete attempt
+
+### Viewer Access Testing
+- Public-Reports folder access
+- Successful report download
+- Unauthorized upload attempt
+- Restricted access to Admin and Employee folders
+
+All screenshots are available in the `screenshots/` directory of this repository.
