@@ -90,3 +90,23 @@ Ashutosh Landage
 BCA Graduate | MCA – Cloud Computing
 
 **Project Domain:** AWS Cloud Security & Infrastructure Management
+
+
+## Screenshots
+
+The following screenshots demonstrate the implementation and testing of the secure cloud storage system.
+
+### 1. S3 Bucket Configuration
+Shows the S3 bucket setup, versioning, encryption, and Block Public Access settings.
+
+### 2. IAM User and Group Management
+Shows the Employee and Viewer IAM groups and their attached custom policies.
+
+### 3. Employee Access Test
+Demonstrates successful file upload to the `Employee/` folder and restricted delete permissions.
+
+### 4. Viewer Access Test
+Demonstrates successful download of `company-report.txt` from `Public-Reports/` and restricted access to other folders.
+
+### 5. Access Control Validation
+Demonstrates how IAM policies enforce role-based access and the principle of least privilege.
