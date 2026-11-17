@@ -111,7 +111,7 @@ Demonstrates successful download of `company-report.txt` from `Public-Reports/` 
 ### 5. Access Control Validation
 Demonstrates how IAM policies enforce role-based access and the principle of least privilege.
 
-## Project Screenshots
+## Screenshot Details
 
 This section contains screenshots demonstrating the implementation, security configuration, IAM access management, and permission testing of the AWS S3 Secure Cloud Storage project.
 
