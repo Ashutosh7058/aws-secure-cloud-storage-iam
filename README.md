@@ -117,9 +117,13 @@ This section contains screenshots demonstrating the implementation, security con
 
 ### S3 Bucket Configuration
 - S3 bucket and folder structure
+- ![S3 Bucket Folder Structure](Screenshots/01-s3-folder-structure.png)
 - Bucket versioning
+- ![S3 Versioning](Screenshots/02-s3-versioning-enabled.png)
 - Default encryption using SSE-S3
+- ![S3 Encryption](Screenshots/03-s3-encryption-sse-s3.png)
 - Block Public Access configuration
+- ![S3 Block Public Access](Screenshots/04-s3-block-public-access.png)
 
 ### IAM Access Management
 - IAM user groups
@@ -127,16 +131,44 @@ This section contains screenshots demonstrating the implementation, security con
 - Viewer read-only IAM policy
 - User and group assignments
 
+- ![IAM User Groups](Screenshots/05-iam-user-groups.png)
+
+![Employee IAM Policy](Screenshots/06-employee-iam-policy.png)
+
+![Viewer IAM Policy](Screenshots/07-viewer-iam-policy.png)
+
+![Viewer User Assignment](Screenshots/08-viewer-user-assignment.png)
+
+![Employee User Assignment](Screenshots/09-employee-user-assignment.png)
+
 ### Employee Access Testing
 - Employee folder access
 - Successful file upload
 - Successful file download
 - Unauthorized delete attempt
 
+- ![Employee Folder Access](Screenshots/10-employee-folder-access.png)
+
+![Employee Upload Success](Screenshots/11-employee-upload-success.png)
+
+![Employee Download Success](Screenshots/12-employee-download-success.png)
+
+![Employee Delete Denied](Screenshots/13-employee-delete-denied.png)
+
 ### Viewer Access Testing
 - Public-Reports folder access
 - Successful report download
 - Unauthorized upload attempt
 - Restricted access to Admin and Employee folders
+
+- ![Viewer Folder Access](Screenshots/14-viewer-folder-access.png)
+
+![Viewer Download Success](Screenshots/15-viewer-download-success.png)
+
+![Viewer Upload Denied](Screenshots/16-viewer-upload-denied.png)
+
+![Viewer Employee Access Denied](Screenshots/17-viewer-employee-access-denied.png)
+
+![Viewer Admin Access Denied](Screenshots/18-viewer-admin-access-denied.png)
 
 All screenshots are available in the `screenshots/` directory of this repository.
